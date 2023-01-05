@@ -1,0 +1,3 @@
+[submodule "DeepInteger"]
+	path = DeepInteger
+	url = https://github.com/FaminEatr/DeepInteger
