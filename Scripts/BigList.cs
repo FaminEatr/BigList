@@ -532,7 +532,7 @@ namespace BottomlessLists
     {
         public static BigList<DeepInteger> Sort(BigList<DeepInteger> toSort)
         {
-            BigList<DeepInteger> sortedList = new BigList<DeepInteger>();
+            BigList<DeepInteger> sortedList = new BigList<DeepInteger>(toSort.Length);
             foreach (var i in toSort)
             {
                 if (!(i is null))
